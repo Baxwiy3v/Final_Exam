@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tSZnqVyldV6PNW7NAOUfKvnnCTsdDlSE0eQm3+/c/g4=",
+  "Hash": "EMMqG5mGx2Gk5TgQ86m+WHE2ZhIyeRyBARWLRVDqlpY=",
   "Source": "Final_Exam",
   "BasePath": "_content/Final_Exam",
   "Mode": "Default",
@@ -340,6 +340,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fontawesome-webfont.woff2"
     },
     {
+      "Identity": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\assets\\images\\0d990260-1aca-411b-aaf1-6799ef4121de.png",
+      "SourceId": "Final_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\",
+      "BasePath": "_content/Final_Exam",
+      "RelativePath": "assets/images/0d990260-1aca-411b-aaf1-6799ef4121de.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\0d990260-1aca-411b-aaf1-6799ef4121de.png"
+    },
+    {
+      "Identity": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\assets\\images\\302eb8d9-62a1-4a39-9d60-e89a0e3e5317.png",
+      "SourceId": "Final_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\",
+      "BasePath": "_content/Final_Exam",
+      "RelativePath": "assets/images/302eb8d9-62a1-4a39-9d60-e89a0e3e5317.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\302eb8d9-62a1-4a39-9d60-e89a0e3e5317.png"
+    },
+    {
       "Identity": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\assets\\images\\about_img.png",
       "SourceId": "Final_Exam",
       "SourceType": "Discovered",
@@ -406,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\blog3.png"
+    },
+    {
+      "Identity": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\assets\\images\\cd86419d-b2b1-46ec-9691-f8f0df9f16fe.png",
+      "SourceId": "Final_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\",
+      "BasePath": "_content/Final_Exam",
+      "RelativePath": "assets/images/cd86419d-b2b1-46ec-9691-f8f0df9f16fe.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\cd86419d-b2b1-46ec-9691-f8f0df9f16fe.png"
     },
     {
       "Identity": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\assets\\images\\f_b1.png",
@@ -491,23 +542,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\f2.png"
-    },
-    {
-      "Identity": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\assets\\images\\f3.png",
-      "SourceId": "Final_Exam",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\",
-      "BasePath": "_content/Final_Exam",
-      "RelativePath": "assets/images/f3.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\f3.png"
     },
     {
       "Identity": "C:\\Users\\ca.r215.17\\Desktop\\Final_Exam\\Final_Exam\\wwwroot\\assets\\images\\fruit_img.png",

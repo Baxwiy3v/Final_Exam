@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ca.r215.17\Desktop\Final_Exam\Final_Exam
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ca.r215.17/Desktop/Final_Exam/Final_Exam/Areas/Admin/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r215.17/Desktop/Final_Exam/Final_Exam/Areas/Admin/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ca.r215.17/Desktop/Final_Exam/Final_Exam/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ca.r215.17/Desktop/Final_Exam/Final_Exam/Areas/Admin/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r215.17/Desktop/Final_Exam/Final_Exam/Areas/Admin/Views/Setting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r215.17/Desktop/Final_Exam/Final_Exam/Areas/Admin/Views/Setting/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ca.r215.17/Desktop/Final_Exam/Final_Exam/Areas/Admin/Views/Shared/_Layout.cshtml]

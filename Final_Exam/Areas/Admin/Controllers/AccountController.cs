@@ -4,6 +4,10 @@ using Final_Exam.Utilities.Enum;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
+//Admin
+//UserOrEmail:aqil
+//Password:aqil12345
+
 namespace Restaurantly_MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -62,7 +66,7 @@ namespace Restaurantly_MVC.Areas.Admin.Controllers
 
             }
 
-            await _sign.SignInAsync(user, isPersistent: false);
+            await _sign.SignInAsync(user, false);
 
 
 
@@ -86,7 +90,7 @@ namespace Restaurantly_MVC.Areas.Admin.Controllers
 
                 if (user == null)
                 {
-                    ModelState.AddModelError(String.Empty, "User,Email ve ya Password uygun deyil");
+                    ModelState.AddModelError(String.Empty, "User,Email ve ya Password uyğun deyil");
                     return View(loginVM);
 
                 }
@@ -106,7 +110,7 @@ namespace Restaurantly_MVC.Areas.Admin.Controllers
             if (!sigin.Succeeded)
             {
 
-                ModelState.AddModelError(String.Empty, "User,Email ve ya Password uygun deyil");
+                ModelState.AddModelError(String.Empty, "User,Email ve ya Password uyğun deyil");
                 return View(loginVM);
             }
 

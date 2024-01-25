@@ -1,5 +1,6 @@
 using Final_Exam.DAL;
 using Final_Exam.Models;
+using Final_Exam.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +14,13 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 
     opt.User.RequireUniqueEmail = true;
 }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+builder.Services.AddScoped<LayoutService>();
+
+builder.Services.ConfigureApplicationCookie(cfg =>
+{
+    cfg.LoginPath = $"/Admin/Account/Login/{cfg.ReturnUrlParameter}";
+});
+builder.Services.AddScoped<LayoutService>();
 
 
 var app = builder.Build();

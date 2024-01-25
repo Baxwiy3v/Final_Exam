@@ -2,12 +2,15 @@
 using Final_Exam.DAL;
 using Final_Exam.Models;
 using Final_Exam.Utilities.Extensions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace Final_Exam.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;

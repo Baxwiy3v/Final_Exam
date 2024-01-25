@@ -9,5 +9,7 @@ namespace Final_Exam.DAL
         public AppDbContext(DbContextOptions<AppDbContext> options) :base(options) { }
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Setting> Settings { get; set; }
     }
 }

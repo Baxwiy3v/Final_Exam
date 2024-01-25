@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@using Final_Exam.Services;
+
+@inject LayoutService service
+
+@{
+    Dictionary<string, string> setting = await service.GetSettingAsync();
+}
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -54,11 +62,35 @@
                             <div class="limit-box">
                                 <nav class="main-menu">
                                     <ul class="menu-area-main">
-                                        <li class="active"><a href="#home">Home</a></li>
-                                        <li><a href="#about">About Us</a></li>
-                                        <li><a href="#fruits">Fruits</a></li>
-                                        <li><a href="#blog">Blog</a></li>
-                                        <li><a href="#contact">Contact Us</a></li>
+                                        <li style="padding:15px 10px" class="active"><a style="padding:15px 20px !important" href="#home">Home</a></li>
+                                        <li style="padding:15px 10px"><a style="padding:15px 10px" href="#about">About Us</a></li>
+                                        <li style="padding:15px 10px"><a style="padding:15px 10px" href="#fruits">Fruits</a></li>
+                                        <li style="padding:15px 10px"><a style="padding:15px 10px" href="#blog">Blog</a></li>
+                                        <li style="padding:15px 10px"><a style="padding:15px 10px" href="#contact">Contact Us</a></li>
+                                        <li style="padding:15px 10px" class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                               User Pages
+                                            </button>
+                                            <ul>
+
+                                                @if (User.Identity.IsAuthenticated)
+                                                {
+                                                    
+                                                    <li>
+                                                        <a>@User.Identity.Name</a>
+                                                        <a asp-action="Logout" asp-controller="Account" asp-area="Admin">Logout</a>
+                                                    </li>
+                                                }
+                                                else
+                                                {
+                                                    <li><a asp-action="Login" asp-controller="Account" asp-area="Admin">Login</a></li>
+                                                    <li> <a asp-action="Register" asp-controller="Account" asp-area="Admin">Register</a></li>
+                                                }
+
+  
+
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -78,7 +110,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <h3>Contact Us</h3>
-                        <p>Healing Center, 176 W Street name, New York, NY<br><br>(+91) 987 654 3210<br><br>demo@gmail.com</p>
+                        <p>@setting["Location"]<br><br>@setting["Phone"]<br><br>@setting["Email"]</p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <h3>Pages</h3>
